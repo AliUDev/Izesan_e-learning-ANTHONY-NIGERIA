@@ -1,0 +1,165 @@
+/* body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f7f9f9e1;
+} */
+
+.container {
+  max-width: 1200px;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+}
+
+/* .slider {
+  border: 1px solid #eee;
+} */
+
+/*----------- CSS a tomar en cuenta -----------*/
+.slider>.slick-list {
+  display: flex;
+  align-items: stretch;
+}
+
+.slider>.slick-list>.slick-track {
+  display: flex;
+  align-items: stretch;
+  padding: 5px;
+  /*espacio necesario para que se vean las sombras*/
+}
+
+.slider>.slick-list>.slick-track>.slick-slide {
+  height: 100%;
+  /*No se porqué, este no es necesario */
+}
+
+.slider>.slick-list>.slick-track>.slick-slide>div {
+  height: 100%;
+  padding-right: 15px;
+  /*Margen entre cards*/
+}
+
+.slider>.slick-list>.slick-track>.slick-slide:last-child>div {
+  padding-right: 0px;
+  /*Eliminar margen inecesario en la última card*/
+}
+
+.slick-track::before {
+  width: 0 !important;
+}
+
+
+.cards {
+  height: 5.67rem;
+  width: 16rem;
+  border-radius: 18px;
+  background-color: #F9F9F9;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0.15);
+  display: flex;
+}
+
+.cards>.image {
+  height: auto;
+  width: auto;
+}
+
+.cards>.image>img {
+  min-width: 3.1rem;
+  min-height: 3.1rem;
+  width: auto;
+  height: -webkit-fill-available;
+}
+
+.card>.texto {
+  height: auto;
+  padding: 18px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% - 210px);
+}
+
+.card>.texto h2 {
+  margin: 0px;
+}
+
+.card>.texto .link {
+  text-align: right;
+  font-weight: bold;
+  color: #2196f3;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.financial-card {
+  background: #4d6fbe;
+  background: linear-gradient(180deg, #4d6fbe, #1ec4dc);
+  color: #fff;
+  border-radius: 6px;
+  /* overflow: hidden; */
+  box-shadow: 0 0 4px rgba(5, 5, 5, 0.15);
+}
+
+.group-cards {
+  margin-bottom: 20px;
+}
+
+.group-cards h1 {
+  text-align: left;
+}
+
+.cards.animate,
+.financial-card.animate {
+  transition: all 0.25s;
+  top: 0px;
+  position: relative;
+}
+
+.cards.animate:hover,
+.financial-card.animate:hover {
+  width: 300px;
+  height: 100px;
+  top: -3px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(5, 5, 5, 0.3);
+
+}
+
+.financial-card>.texto {
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+}
+
+.slick-slider .slick-next:before,
+.slick-slider .slick-prev:before,
+.slick-dots li.slick-active button:before {
+  font-size: 30px;
+  color: #000;
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  font-size: 30px;
+  color: #000;
+}
+
+.maincard {
+  padding: 10px 3px 0px 10px;
+}
+
+.card-lesson {
+  font-size: 12px;
+}
+
+/* .card-lesson {
+  font-size: 6px;
+} */
+
+.card-twi {
+  color: #8F8F8F;
+  font-size: 11px;
+}
+
+.starRating {
+  margin: -3px 0px 0px 2px;
+}

@@ -1,0 +1,25 @@
+{
+  "short_name": "Izesan!",
+  "name": "Izesan! is an e-learning platform for African languages that offers interactive lessons and exercises to teach users how to speak different African languages.",
+  "icons": [
+    {
+      "src": "./favicon/favicon@2x.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./favicon/favicon@2x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicon/favicon@2x.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

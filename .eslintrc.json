@@ -1,0 +1,83 @@
+// {
+//   "env": {
+//     "browser": true,
+//     "es2021": true
+//   },
+//   "extends": [
+//     "eslint:recommended",
+//     "plugin:react/recommended",
+//     "plugin:react/jsx-runtime",
+//     "plugin:prettier/recommended"
+//   ],
+//   "parserOptions": {
+//     "ecmaFeatures": {
+//       "jsx": true
+//     },
+//     "ecmaVersion": "latest",
+//     "sourceType": "module"
+//   },
+//   "plugins": [
+//     "react"
+//   ],
+//   "rules": {
+//     "react/prop-types": "off",
+//     "no-console": "warn",
+//     "react/display-name": "off",
+//     "react/jsx-curly-brace-presence": [
+//       "warn",
+//       {
+//         "props": "never",
+//         "children": "never"
+//       }
+//     ]
+//   },
+//   "settings": {
+//     "react": {
+//       "version": "detect"
+//     }
+//   },
+//   "prettier/prettier": [
+//     "error",
+//     {
+//       "endOfLine": "auto"
+//     }
+//   ]
+// }
+
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    // "eslint:recommended",
+    // "plugin:react/recommended",
+    // "plugin:react/jsx-runtime",
+    // "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      // "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/prop-types": "off",
+    // "no-console": "warn",
+    "react/display-name": "off",
+    "react/jsx-curly-brace-presence": [
+      "warn",
+      {
+        "props": "never",
+        "children": "never"
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

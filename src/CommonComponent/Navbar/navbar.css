@@ -1,0 +1,6 @@
+.navv .nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 40px;
+  text-decoration-color: #489a6b;
+  text-decoration-thickness: 5px;
+}

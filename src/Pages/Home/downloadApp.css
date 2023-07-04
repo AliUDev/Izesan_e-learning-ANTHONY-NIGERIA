@@ -1,0 +1,194 @@
+.dmain {
+  margin-top: 1rem;
+  /* display: flex;
+  justify-content: space-around; */
+  /* flex-direction: column;  */
+}
+
+.downloadrow {
+  display: flex !important;
+  justify-content: space-around !important;
+  padding-right: 1.2rem !important;
+}
+
+.dlayout {
+  width: 100%;
+  padding: 10rem 0rem 0rem 0rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.downloadapp {
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  letter-spacing: 0px;
+  color: #343434;
+  opacity: 1;
+  text-align: center; */
+
+  text-align: center;
+  font: normal normal normal 36px Roboto;
+  letter-spacing: 0px;
+  color: #343434;
+  opacity: 1;
+}
+
+.screens {
+  height: 80%;
+  width: 80%;
+  /* margin-left: 10%; */
+}
+
+.details {
+  margin-left: 14%;
+}
+
+.dmain.content {
+  margin-top: 6%;
+  line-height: 1.6rem;
+  text-align: left;
+  font: normal normal normal 20px Roboto;
+  letter-spacing: 0px;
+  color: #343434;
+  opacity: 1;
+}
+
+.appleLogo {
+  width: 24%;
+}
+
+.googleLogo {
+  width: 24%;
+}
+
+/* mobile view */
+@media screen and (max-width: 1024px) {
+  .screens {
+    height: 518.4px;
+    width: 404.8px;
+    /* 506 × 648 px
+ */
+  }
+
+  .downloadrow {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    padding-right: 1.2rem !important;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .screens {
+    height: 388.8px;
+    width: 303.6px;
+   
+  }
+  .downloadrow {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    padding-right: 1.2rem !important;
+  }
+} */
+/* 480px, 768px, 1024px, and 1280px) */
+@media screen and (max-width: 768px) {
+  .screens {
+    height: 388.8px;
+    width: 303.6px;
+    /* w 506 × h 648 px
+ */
+  }
+
+  .row {
+    margin-left: 0 !important;
+  }
+
+  .details {
+    margin-left: 0;
+  }
+
+  .downloadrow {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-around !important;
+    padding: 5rem !important;
+  }
+
+  .downloadapp {
+    margin-top: 1rem;
+
+    margin-bottom: 1rem;
+    font: normal normal normal 24px Roboto;
+    font-weight: 500;
+  }
+
+  .dmain.content {
+    line-height: 1rem;
+    text-align: center;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #343434;
+    opacity: 1;
+  }
+
+  .appleLogo {
+    width: 50%;
+  }
+
+  .googleLogo {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .screens {
+    height: 50%;
+    width: 50%;
+    /* w 506 × h 648 px
+ */
+  }
+
+  .row {
+    margin-left: 0 !important;
+  }
+
+  .downloadrow {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-around !important;
+    padding: 0rem !important;
+  }
+
+  .downloadapp {
+    margin-top: 1rem;
+
+    margin-bottom: 1rem;
+    font: normal normal normal 2rem Roboto;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .dmain.content {
+    line-height: 1rem;
+    text-align: center;
+    font: normal normal normal 1rem Roboto;
+    letter-spacing: 0px;
+    color: #343434;
+    opacity: 1;
+  }
+
+  .appleLogo {
+    width: 60%;
+  }
+
+  .googleLogo {
+    width: 60%;
+  }
+}

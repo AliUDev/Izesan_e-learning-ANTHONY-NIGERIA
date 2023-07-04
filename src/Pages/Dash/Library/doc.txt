@@ -1,0 +1,29 @@
+translation (param for translation)
+
+API for getting purshed Id of user
+get/purchased-audio-book-details
+
+Params:
+user_id
+audio_book_id
+
+__________________________________________________________________________________________
+get/audio-book-details
+Params:
+
+
+audio_book_id:(I'd from previous screen)
+
+Call  this API on this screen
+In response you will get all the paragraphs of book ,, now you have to sync that single audio and lrc file to all the paragraph (to know when the next paragraph will be started,, starting_point according to lrc file is given for each paragraph)
+
+
+__________________________________________________________________________________________
+
+get/audio-book
+
+Params:
+page:
+type:(language selected in dropdown)
+
+Call this API on this screen,, you will get all books with pagination

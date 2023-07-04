@@ -1,0 +1,90 @@
+.lmain {
+  margin-top: 10px;
+}
+
+.profile {
+  height: 274px;
+  width: 192px;
+  margin-top: 10%;
+  object-fit: cover;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+  border-radius: 16px;
+}
+
+.pcontent {
+  position: absolute;
+  color: white;
+  top: 205px;
+  width: 192px;
+}
+
+.LiveSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.ArrowSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 110px;
+}
+
+.ArrowSpacing {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.ArrowSectionOpacity {
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 1280px) {
+  .profile_row {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .profile_row {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profile_row {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile_row {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+  }
+
+  .profile {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile_row {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+  }
+
+  .profile {
+    margin-right: 15px;
+  }
+}

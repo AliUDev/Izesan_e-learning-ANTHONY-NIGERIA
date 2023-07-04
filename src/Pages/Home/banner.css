@@ -1,0 +1,1002 @@
+.btitle {
+  text-align: left;
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #2e4765;
+  opacity: 1;
+}
+
+.btnAppstore {
+  width: 110px;
+  height: 40px;
+}
+
+.btnGoogle {
+  width: 110px;
+  height: 40px;
+}
+
+.banner-main {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 150px);
+  /* height: 100vh; */
+}
+
+.bannerlayout {
+  /* max-width: 100%;
+  min-width: 100%;
+  height: 40px; */
+  /* max-height: 65vh; */
+  min-height: 400px;
+  /* min-width: 60%; */
+  /* padding: 60px 0;
+  text-align: center;*/
+  color: white;
+  border-radius: 16px;
+  position: relative;
+  background-size: cover;
+  /*background-repeat: no-repeat;
+  object-fit: cover; */
+}
+
+.BannerImages {
+  display: flex;
+  position: relative;
+  margin-top: 25px;
+  width: 25%;
+  gap: 10px;
+  left: 30px;
+  bottom: 0px;
+  align-items: flex-end;
+}
+
+.BannerGroup {
+  display: flex;
+  flex-direction: row;
+  /* gap: 80px; */
+  /* height: 53vh; */
+  position: absolute;
+  top: 100%;
+  left: 10%;
+}
+
+.BannerText {
+  position: relative;
+  text-align: left;
+  /* width: 100%; */
+  /* top: 120px; */
+}
+
+.BannerLearn {
+  text-align: left;
+  font: normal normal bold 3.75rem Poppins;
+  letter-spacing: 0.9px;
+  color: #ffffff;
+}
+
+.BannerEveryday {
+  text-align: left;
+  font: normal normal normal 2.75rem Poppins;
+  letter-spacing: 0.72px;
+  color: #ffbe58;
+}
+
+.BannerParagraph {
+  text-align: left;
+  font: normal normal normal 1rem Rubik;
+  letter-spacing: 0px;
+  color: #e4e9ff;
+  opacity: 1;
+}
+
+.BannerTrialBtn {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  opacity: 1;
+  background: transparent;
+  color: white;
+  font: normal normal normal 12px/18px Rubik;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.margin {
+  margin-top: -15px;
+}
+
+/* @media screen and (max-width: 1280px) {
+  .banner-main {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 150px);
+    max-width: 1280px;
+     height: 100vh; 
+}
+
+.BannerText {
+  position: relative;
+  text-align: left;
+  width: 96%;
+  top: 56px;
+}
+
+.container {
+  max-width: 1280 !important;
+}
+
+.bannerlayout {
+  width: 100%;
+  max-height: 53vh !important;
+  min-height: 53vh;
+  min-width: 60%;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.BannerGroup {
+  gap: 80px;
+  height: 53vh;
+}
+
+.BannerLearn {
+  text-align: left;
+  font: normal normal bold 3vw Poppins;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: -15px;
+}
+
+.BannerEveryday {
+  text-align: left;
+  font: normal normal normal 3vw Poppins;
+  letter-spacing: 0.32px;
+  color: #ffbe58;
+}
+
+.BannerParagraph {
+  text-align: left;
+  font: normal normal normal 1.2vw Rubik;
+  letter-spacing: 0px;
+  color: #e4e9ff;
+  opacity: 1;
+}
+
+.BannerImages {
+  display: flex;
+  position: relative;
+  margin-top: 62px;
+  width: 25%;
+  gap: 10px;
+  left: 51px;
+  bottom: 83px;
+  align-items: flex-end;
+}
+
+.BannerTrialBtn {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  opacity: 1;
+  background: transparent;
+  color: white;
+  font: normal normal normal 12px/18px Rubik;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.btnAppstore {
+  width: 4rem;
+  height: 2rem;
+}
+
+.btnGoogle {
+  width: 4rem;
+  height: 2rem;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-main {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 150px);
+    max-width: 1024px;
+     height: 100vh; 
+}
+
+.BannerText {
+  position: relative;
+  text-align: left;
+  width: 96%;
+  top: 56px;
+}
+
+.container {
+  max-width: 1024 !important;
+}
+
+.bannerlayout {
+  width: 100%;
+  max-height: 53vh !important;
+  min-height: 53vh;
+  min-width: 60%;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.BannerGroup {
+  gap: 80px;
+  height: 53vh;
+}
+
+.BannerLearn {
+  text-align: left;
+  font: normal normal bold 3vw Poppins;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: -15px;
+}
+
+.BannerEveryday {
+  text-align: left;
+  font: normal normal normal 3vw Poppins;
+  letter-spacing: 0.32px;
+  color: #ffbe58;
+}
+
+.BannerParagraph {
+  text-align: left;
+  font: normal normal normal 1.2vw Rubik;
+  letter-spacing: 0px;
+  color: #e4e9ff;
+  opacity: 1;
+}
+
+.BannerImages {
+  display: flex;
+  position: relative;
+  margin-top: 62px;
+  width: 25%;
+  gap: 10px;
+  left: 51px;
+  bottom: 83px;
+  align-items: flex-end;
+}
+
+.BannerTrialBtn {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  opacity: 1;
+  background: transparent;
+  color: white;
+  font: normal normal normal 12px/18px Rubik;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.btnAppstore {
+  width: 4rem;
+  height: 2rem;
+}
+
+.btnGoogle {
+  width: 4rem;
+  height: 2rem;
+}
+}
+
+@media screen and (max-width: 992px) {
+  .banner-main {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 150px);
+    max-width: 992px;
+    height: 100vh; 
+}
+
+.BannerText {
+  position: relative;
+  text-align: left;
+  width: 96%;
+  top: 56px;
+}
+
+.container {
+  max-width: 992 !important;
+}
+
+.bannerlayout {
+  width: 100%;
+  max-height: 40vh !important;
+  min-height: 40vh;
+  min-width: 60%;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.BannerGroup {
+  gap: 80px;
+  height: 53vh;
+}
+
+.BannerLearn {
+  text-align: left;
+  font: normal normal bold 3vw Poppins;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-top: -15px;
+}
+
+.BannerEveryday {
+  text-align: left;
+  font: normal normal normal 3vw Poppins;
+  letter-spacing: 0.32px;
+  color: #ffbe58;
+}
+
+.BannerParagraph {
+  text-align: left;
+  font: normal normal normal 1.2vw Rubik;
+  letter-spacing: 0px;
+  color: #e4e9ff;
+  opacity: 1;
+}
+
+.BannerImages {
+  display: flex;
+  position: relative;
+  margin-top: 62px;
+  width: 25%;
+  gap: 10px;
+  left: 51px;
+  bottom: 174px;
+  align-items: flex-end;
+}
+
+.BannerTrialBtn {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  opacity: 1;
+  background: transparent;
+  color: white;
+  font: normal normal normal 12px/18px Rubik;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.btnAppstore {
+  width: 2.4rem;
+  height: 1rem;
+}
+
+.btnGoogle {
+  width: 2.4rem;
+  height: 1rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .banner-main {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 150px);
+    max-width: 768px;
+    height: 100vh;
+}
+
+.BannerText {
+  position: relative;
+  text-align: left;
+  width: 75%;
+  top: 18px;
+}
+
+.container {
+  max-width: 768 !important;
+}
+
+.bannerlayout {
+  width: 100%;
+  max-height: 33vh !important;
+  min-height: 33vh;
+  min-width: 60%;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.BannerGroup {
+  gap: 0;
+  height: 0;
+}
+
+.BannerLearn {
+  text-align: left;
+  font: normal normal bold 3vw Poppins;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-top: -15px;
+}
+
+.BannerEveryday {
+  text-align: left;
+  font: normal normal normal 3vw Poppins;
+  letter-spacing: 0.32px;
+  color: #ffbe58;
+}
+
+.BannerParagraph {
+  text-align: left;
+  font: normal normal normal 1.2vw Rubik;
+  letter-spacing: 0px;
+  color: #e4e9ff;
+  opacity: 1;
+}
+
+.BannerImages {
+  display: flex;
+  position: relative;
+  margin-top: 62px;
+  width: 25%;
+  gap: 10px;
+  left: 32px;
+  bottom: -92px;
+  align-items: flex-end;
+}
+
+.BannerTrialBtn {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  opacity: 1;
+  background: transparent;
+  color: white;
+  font: normal normal normal 9px/8px Rubik;
+   padding: 3px 12px; 
+margin-top: 8px;
+}
+
+.btnAppstore {
+  width: 2rem;
+  height: 1rem;
+}
+
+.btnGoogle {
+  width: 2rem;
+  height: 1rem;
+}
+}
+
+@media screen and (max-width: 580px) {
+  .bannerlayout {
+    width: 100%;
+    max-height: 26vh !important;
+    min-height: 26vh;
+    min-width: 60%;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .BannerGroup {
+    gap: 0;
+    height: 0;
+  }
+
+  .BannerLearn {
+    margin-top: -32px;
+  }
+
+  .BannerImages {
+    display: flex;
+    position: relative;
+    margin-top: 62px;
+    width: 25%;
+    gap: 10px;
+    left: 25px;
+    bottom: -44px;
+
+    align-items: flex-end;
+  }
+
+  .BannerTrialBtn {
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    opacity: 1;
+    background: transparent;
+    color: white;
+    font: normal normal normal 4px/4px Rubik;
+    padding: 3px 12px;
+    margin-top: 8px;
+  }
+
+  .btnAppstore {
+    width: 1.2rem;
+    height: 0.8rem;
+  }
+
+  .btnGoogle {
+    width: 1.2rem;
+    height: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bannerlayout {
+    width: 100%;
+    max-height: 22vh !important;
+    min-height: 22vh;
+    min-width: 60%;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .BannerGroup {
+    gap: 0;
+    height: 0;
+  }
+
+  .BannerLearn {
+    margin-top: -32px;
+  }
+
+  .BannerText {
+    position: relative;
+    text-align: left;
+    width: 75%;
+    top: -5px;
+  }
+
+  .BannerImages {
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+    width: 25%;
+    gap: 10px;
+    left: 18px;
+    bottom: -59px;
+    align-items: flex-end;
+  }
+
+  .BannerTrialBtn {
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    opacity: 1;
+    background: transparent;
+    color: white;
+    font: normal normal normal 4px/4px Rubik;
+    padding: 3px 12px;
+    margin-top: 8px;
+  }
+
+  .btnAppstore {
+    width: 1.2rem;
+    height: 0.8rem;
+  }
+
+  .btnGoogle {
+    width: 1.2rem;
+    height: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .bannerlayout {
+    width: 100%;
+    max-height: 18vh !important;
+    min-height: 18vh;
+    min-width: 60%;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .BannerGroup {
+    gap: 0;
+    height: 0;
+  }
+
+  .BannerLearn {
+    margin-top: -32px;
+  }
+
+  .BannerImages {
+    display: flex;
+    position: relative;
+     margin-top: 25px; 
+width: 25%;
+gap: 10px;
+left: 10px;
+bottom: -36px;
+align-items: flex-end;
+}
+
+.BannerLearn {
+  text-align: left;
+  font: normal normal bold 1.8vw Poppins;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-top: -15px;
+}
+
+.BannerEveryday {
+  text-align: left;
+  font: normal normal normal 1.8vw Poppins;
+  letter-spacing: 0.32px;
+  color: #ffbe58;
+}
+
+.BannerParagraph {
+  text-align: left;
+  font: normal normal normal 0.8vw Rubik;
+  letter-spacing: 0px;
+  color: #e4e9ff;
+  opacity: 1;
+}
+
+.BannerTrialBtn {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  opacity: 1;
+  background: transparent;
+  color: white;
+  font: normal normal normal 4px/4px Rubik;
+  padding: 3px 12px;
+  margin-top: 8px;
+}
+
+.BannerText {
+  position: relative;
+  text-align: left;
+  width: 75%;
+  top: -15px;
+}
+
+.btnAppstore {
+  width: 1rem;
+  height: 0.5rem;
+}
+
+.btnGoogle {
+  width: 1rem;
+  height: 0.5rem;
+}
+}
+
+*/
+
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+
+=======
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+/* body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.hero-image {
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Assets/Images/Banner2.png");
+=======
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../assets/images/Banner2.png');
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.appDiv {
+  margin: 0 0 10px -35px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .btitle {
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+  .screen {
+    height: 100px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+    width: 80px
+=======
+    width: 80px;
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .LeftImg {
+    margin-left: -30px;
+    margin-top: -20px;
+  }
+
+  .BannerLearn {
+    font-size: 10px;
+  }
+
+  .BannerEveryday {
+    font-size: 10px;
+  }
+
+  .BannerParagraph {
+    font-size: 8px;
+    padding-right: 15px;
+    line-height: 8px;
+    margin: 0 0 0;
+  }
+
+  .appDiv {
+    margin: 0 0 4px -50px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+
+=======
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .appStore,
+  .googleStore {
+    height: 15px;
+  }
+
+  .googleStore {
+    margin-left: -10px;
+  }
+
+  .BannerTrialBtn {
+    font-size: 7px;
+    padding: 1px 10px;
+  }
+
+  .ColumnSecond {
+    margin-left: -70px;
+  }
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+
+=======
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .btitle {
+    font-size: 40px;
+    font-weight: 200;
+  }
+
+  .screen {
+    height: 150px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+    width: 120px
+=======
+    width: 120px;
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .LeftImg {
+    margin-left: -30px;
+    margin-top: -20px;
+  }
+
+  .BannerLearn {
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+    font-size: 28px;
+=======
+    font-size: 24px;
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .BannerEveryday {
+    font-size: 20px;
+  }
+
+  .BannerParagraph {
+    font-size: 12px;
+    padding-right: 15px;
+    line-height: 15px;
+    margin: 0 0 0;
+  }
+
+  .appDiv {
+    margin: 0 0 10px -50px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+
+=======
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .appStore,
+  .googleStore {
+    height: 15px;
+  }
+
+  .googleStore {
+    margin-left: -10px;
+  }
+
+  .BannerTrialBtn {
+    font-size: 7px;
+    padding: 3px 20px;
+  }
+
+  .ColumnSecond {
+    margin-left: -70px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .btitle {
+    font-size: 45px;
+    font-weight: 200;
+  }
+
+  .screen {
+    height: 180px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+    width: 130px
+=======
+    width: 130px;
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .BannerLearn {
+    font-size: 32px;
+  }
+
+  .BannerEveryday {
+    font-size: 25px;
+  }
+
+  .BannerParagraph {
+    font-size: 16px;
+    padding-right: 15px;
+    line-height: 18px;
+    margin: 0 0 0;
+  }
+
+  .appDiv {
+    margin: 0 0 20px -30px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+
+=======
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .appStore,
+  .googleStore {
+    height: 25px;
+  }
+
+  .googleStore {
+    margin-left: -10px;
+  }
+
+  .BannerTrialBtn {
+    font-size: 7px;
+    padding: 3px 20px;
+  }
+
+  .ColumnSecond {
+    margin-left: -70px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .btitle {
+    font-size: 45px;
+    font-weight: 200;
+  }
+
+  .screen {
+    height: 180px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+    width: 130px
+=======
+    width: 130px;
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .BannerLearn {
+    font-size: 32px;
+  }
+
+  .BannerEveryday {
+    font-size: 25px;
+  }
+
+  .BannerParagraph {
+    font-size: 16px;
+    padding-right: 15px;
+    line-height: 18px;
+    margin: 0 0 0;
+  }
+
+  .appDiv {
+    margin: 0 0 20px -30px;
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+
+=======
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css
+  }
+
+  .appStore,
+  .googleStore {
+    height: 25px;
+  }
+
+  .googleStore {
+    margin-left: -10px;
+  }
+
+  .BannerTrialBtn {
+    font-size: 7px;
+    padding: 3px 20px;
+  }
+
+  .ColumnSecond {
+    margin-left: -70px;
+  }
+<<<<<<< HEAD:src/Component/HomeView/banner.css
+}
+=======
+}
+>>>>>>> 2854d34bcbaa97aafdafb8a3c243a9910d055a26:src/Pages/Home/banner.css

@@ -1,0 +1,13 @@
+1."Get the latest streak of the user"
+(API URL: LatestStreak)
+_Body Params:
+email_id: ''
+_________________________________________________________________________________________________________
+
+2."For daily time calculation, call this API on closing the app, it will make all the streaks on backend"
+(API URL: earn-koobos)
+_Body Params:
+email_id: ''
+usage_time: ''
+date: 'yyyy-MM-dd'
+_________________________________________________________________________________________________________

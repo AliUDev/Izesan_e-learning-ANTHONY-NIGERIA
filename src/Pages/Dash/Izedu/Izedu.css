@@ -1,0 +1,10 @@
+.hover_styling_css:hover {
+    background-color: #ffc107;
+    color: white !important;
+    cursor: pointer;
+}
+
+.izedu_video {
+    /* height: 400; */
+    width: 100% !important;
+}
